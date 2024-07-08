@@ -19,5 +19,8 @@
   "homepage": "https://github.com/MakiRoyal/os-eaeafc#readme",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7"
   }
 }
