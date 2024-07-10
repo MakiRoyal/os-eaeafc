@@ -1,4 +1,6 @@
 Pokédex des Festivals
+
+
 Bienvenue dans le Pokédex des Festivals ! Ce projet vous permet de rechercher et de découvrir une variété de festivals à travers la France. Utilisez les fonctionnalités de recherche, de filtrage par genre et de tri pour explorer les festivals qui vous intéressent.
 
 Fonctionnalités principales
