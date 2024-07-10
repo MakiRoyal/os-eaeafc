@@ -50,9 +50,12 @@ app.js : Fichier JavaScript contenant toute la logique métier de l'application,
 Comment démarrer
 Clonez ce repository sur votre machine locale :
 
-bash
+
 
 git clone https://github.com/votre-utilisateur/pokedex-des-festivals.git
+cd os-eaeafc
+npm install
+
 Ouvrez le fichier index.html dans votre navigateur web préféré pour commencer à explorer les festivals.
 
 Explorez les fonctionnalités de recherche, de filtrage et de tri pour découvrir les festivals qui vous intéressent.
