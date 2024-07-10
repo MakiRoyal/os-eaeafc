@@ -36,7 +36,7 @@ Structure du projet
 │
 ├── index.html
 ├── styles.css
-└── app.js
+└── index.js
 
 index.html : Fichier principal contenant la structure HTML de l'application.
 
