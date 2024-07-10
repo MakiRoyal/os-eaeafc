@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex des Festivals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Pokédex des Festivals</h1>
+        </header>
+        <main>
+            <input type="text" id="search" placeholder="Rechercher un festival...">
+            <select id="genre-filter">
+                <option value="">Tous les genres</option>
+                <option value="Musique">Musique</option>
+                <option value="Livre">Livre</option>
+                <option value="Littérature">Littérature</option>
+                <option value="Cinéma">Cinéma</option>
+                <option value="Audiovisuel">Audiovisuel</option>
+                <option value="ArtsV">Arts visuels</option>
+                <option value="ArtsN">Arts numériques</option>
+                <option value="SpectaclesV">Spectacles vivants</option>
+                <!-- Ajoutez d'autres options selon vos besoins -->
+            </select>
+            <select id="sort-select">
+                <option value="">Trier par...</option>
+                <option value="nom_du_festival-asc">Nom (A-Z)</option>
+                <option value="nom_du_festival-desc">Nom (Z-A)</option>
+                <option value="region_principale_de_deroulement-asc">Région (A-Z)</option>
+                <option value="region_principale_de_deroulement-desc">Région (Z-A)</option>
+                <option value="departement_principal_de_deroulement-asc">Département (A-Z)</option>
+                <option value="departement_principal_de_deroulement-desc">Département (Z-A)</option>
+                <option value="commune_principale_de_deroulement-asc">Commune (A-Z)</option>
+                <option value="commune_principale_de_deroulement-desc">Commune (Z-A)</option>
+            </select>
+            
+            <div id="festival-list"></div>
+        </main>
+    </div>
+    <script type="module" src="../index.js" defer></script>
+</body>
+</html>

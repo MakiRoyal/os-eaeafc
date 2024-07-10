@@ -1,11 +1,14 @@
 {
   "name": "os-eaeafc",
   "version": "1.0.1",
-  "description": "",
+  "description": "Une application Web qui recense tous les 20 festivals à venir",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
   },
   "repository": {
     "type": "git",
@@ -18,9 +21,13 @@
   },
   "homepage": "https://github.com/MakiRoyal/os-eaeafc#readme",
   "dependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "os-eaeafc": "^1.0.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.24.7"
+    "@babel/preset-env": "^7.24.7",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.1.0",
+    "jsdom-global": "^3.0.2"
   }
 }

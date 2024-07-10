@@ -1,0 +1,23 @@
+{
+  "name": "os-eaeafc",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakiRoyal/os-eaeafc.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakiRoyal/os-eaeafc/issues"
+  },
+  "homepage": "https://github.com/MakiRoyal/os-eaeafc#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
